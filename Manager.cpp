@@ -12,8 +12,8 @@ Manager::Manager(int id, string name, int did)
 void Manager::ShowInfo()
 {
 	cout << "职工编号：" << this->m_Id
-		    << "\t职工编号：" << this->m_Name
-	     	<< "\t职工编号：" << this->GetDeptName()
+		    << "\t职工姓名：" << this->m_Name
+	     	<< "\t职工部门编号：" << this->GetDeptName()
 	    	<< "\t岗位职责：完成总裁交给的任务，并下发给普通职工" << endl;
 }
 

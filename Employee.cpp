@@ -12,8 +12,8 @@ Employee::Employee(int id , string name , int did)
 void Employee::ShowInfo()
 {
 	cout << "职工编号：" << this->m_Id
-	        << "\t职工编号：" << this->m_Name
-	        << "\t职工编号：" << this->GetDeptName()
+	        << "\t职工姓名：" << this->m_Name
+	        << "\t职工部门编号：" << this->GetDeptName()
 	        << "\t岗位职责：完成经理交给的任务"<< endl;
 }
 
